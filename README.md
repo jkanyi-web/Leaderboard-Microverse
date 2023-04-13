@@ -5,7 +5,7 @@
 - [📗 Table of Contents](#-table-of-contents)
 - [Todo List App ](#todo-list-app-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
+    - [JavaScript ](#JavaScript-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -20,13 +20,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Todo List App <a name="about-project"></a>
+# Leaderboard App <a name="about-project"></a>
 
 **Leaderboard App** is a small project that displays scores submitted by different players. It also allows you to submit your score.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### JavaScript <a name="JavaScript"></a>
 
 <details>
   <summary>Client</summary>
