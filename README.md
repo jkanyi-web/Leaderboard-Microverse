@@ -3,7 +3,7 @@
 
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
-- [Todo List App ](#todo-list-app-)
+- [Leaderboard App ](#todo-list-app-)
   - [🛠 Built With ](#-built-with-)
     - [JavaScript ](#JavaScript-)
     - [Key Features ](#key-features-)
