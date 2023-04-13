@@ -1,0 +1,72 @@
+/** @format */
+* {
+  box-sizing: border-box;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  gap: 20%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+}
+
+.score-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+form button {
+  width: 50%;
+}
+
+.score-header button {
+  height: 5%;
+}
+
+.score-table {
+  margin-left: 10%;
+  width: 100%;
+  border: 3px solid black;
+}
+
+p {
+  border: 1px solid black;
+  margin: 0;
+  padding: 10px;
+}
+
+.lighter {
+  background-color: #999;
+}
+
+.score-form {
+  margin-top: 15%;
+}
+
+.score-form h2 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 120%;
+}
