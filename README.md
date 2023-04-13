@@ -32,7 +32,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">Html</a></li>
-        <li><a href="#">CSS</a></li>
+        <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
   </ul>
 </details>
 
