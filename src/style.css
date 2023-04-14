@@ -81,10 +81,6 @@ p {
   padding: 10px;
 }
 
-.lighter {
-  background-color: #999;
-}
-
 .score-form {
   margin-top: 15%;
   display: flex;
@@ -101,4 +97,8 @@ p {
 input {
   width: 130%;
   font-size: 1.2rem;
+}
+
+.item:nth-child(even) {
+  background-color: #999;
 }
