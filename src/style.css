@@ -7,7 +7,10 @@
 
 body {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   gap: 20%;
+  background-color: lavender;
 }
 
 form {
@@ -15,6 +18,7 @@ form {
   flex-direction: column;
   gap: 20px;
   align-items: flex-end;
+  margin-right: 10%;
 }
 
 button {
@@ -60,13 +64,18 @@ p {
 
 .score-form {
   margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .score-form h2 {
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin-right: 50px;
+  width: 100%;
 }
 
 input {
-  width: 120%;
+  width: 130%;
+  font-size: 1.2rem;
 }
