@@ -13,7 +13,7 @@ const receiveData = () => {
     .then((data) => {
       let markup = '';
       data.result.forEach((item) => {
-        markup += `<p>${item.user}: ${item.score}</p>`;
+        markup += `<p class="item">${item.user}: ${item.score}</p>`;
       });
       document.querySelector('.score-table').innerHTML = markup;
     })
