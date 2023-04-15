@@ -7,7 +7,10 @@
 
 body {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   gap: 20%;
+  background-color: lavender;
 }
 
 form {
@@ -15,6 +18,7 @@ form {
   flex-direction: column;
   gap: 20px;
   align-items: flex-end;
+  margin-right: 10%;
 }
 
 button {
@@ -43,9 +47,32 @@ form button {
 }
 
 .score-table {
+  height: 200px;
+  overflow: auto;
   margin-left: 10%;
   width: 100%;
   border: 3px solid black;
+}
+
+.score-table::-webkit-scrollbar {
+  width: 10px;
+}
+
+.score-table::-webkit-scrollbar-track {
+  background-color: lavender;
+}
+
+.score-table::-webkit-scrollbar-thumb {
+  background-color: rgb(54, 53, 53);
+  border-radius: 5px;
+}
+
+.score-table::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.score-table::-webkit-scrollbar-thumb:active {
+  background-color: rgb(88, 70, 70);
 }
 
 p {
@@ -60,13 +87,18 @@ p {
 
 .score-form {
   margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .score-form h2 {
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin-right: 50px;
+  width: 100%;
 }
 
 input {
-  width: 120%;
+  width: 130%;
+  font-size: 1.2rem;
 }

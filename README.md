@@ -41,7 +41,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Webpack Configuration**
-- **API**
+- **sending and receiving data from/to the Leaderboard API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
