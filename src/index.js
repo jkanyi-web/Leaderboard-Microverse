@@ -16,6 +16,7 @@ form.addEventListener('submit', (e) => {
   postData(e);
 });
 
+receiveData();
 refreshBtn.addEventListener('click', () => {
   receiveData();
 });
